@@ -39,6 +39,10 @@ body {
   border-color: #333;
 }
 
+.square__item:hover {
+  border-radius: 50%;
+}
+
 /* Circle */
 .circle {
   width: 100px;
@@ -75,8 +79,18 @@ body {
 /* Start */
 
 .btn {
+  display: block;
+  margin: 160px;
+}
+
+button {
+  background-color: #333;
+  border-radius: 50%;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
   display: inline-block;
-  padding: 35px 30px;
-  font-size: 20px;
-  color: #fff;
+  font-size: 30px;
+  margin: 4px 2px;
 }
