@@ -1,4 +1,0 @@
-
-function ClickFunction() {
-  alert("ALERT");
-}
