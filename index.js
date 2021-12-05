@@ -1,0 +1,3 @@
+function ClickFunction() {
+    alert("ALERT");
+  }
